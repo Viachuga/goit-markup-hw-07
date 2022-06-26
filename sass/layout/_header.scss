@@ -56,9 +56,9 @@
   color: var(--akcent-color);
 }
 
-.nav-list__link:hover .contacts-list__icon,
-.nav-list__link:focus .contacts-list__icon {
-  fill: var(--hover-btn);
+.current
+ {
+  color: var(--hover-btn);
 }
 
 .contacts-list__link:hover,

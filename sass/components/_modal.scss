@@ -87,6 +87,11 @@
   letter-spacing: 0.01em;
 }
 
+.form-icon:hover,
+.form-icon:focus {
+  fill: var(--akcent-color);
+}
+
 .input-wrap__item:hover + .form-icon,
 .input-wrap__item:focus-within + .form-icon {
   fill: var(--akcent-color);
