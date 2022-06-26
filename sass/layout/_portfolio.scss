@@ -11,7 +11,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--h-color);
+  color: $h-color;
 }
 
 .card-label__direction {
@@ -19,7 +19,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
 }
 
 .filter-list {
@@ -69,7 +69,7 @@
     transform: translatex(0);
   }
   & p {
-    color: var(--white-color);
+    color: $white-color;
     padding: 63px 24px;
     margin: 0;
     font-size: 18px;

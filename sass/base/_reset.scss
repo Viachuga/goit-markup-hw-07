@@ -2,8 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    color: var(--text-color);
-    background-color: var(--white-color);
+    color: $text-color;
+    background-color: $white-color;
   }
   
   .container {
@@ -26,13 +26,13 @@ body {
   
   a {
     text-decoration: none;
-    color: var(--icon-color);
+    color: $icon-color;
   }
   
   a.accept {
     text-decoration-line: underline;
     text-underline-position: under;
-    color: var(--akcent-color);
+    color: $akcent-color;
     line-height: 1.71;
   }
   

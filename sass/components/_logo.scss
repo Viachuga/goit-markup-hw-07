@@ -5,13 +5,13 @@
     font-size: 26px;
     line-height: 1.19;
     &--acent {
-      color: var(--akcent-color);
+      color: $akcent-color;
     }
     &--dark {
-      color: black;
+      color: $h-color;
       margin-right: 93px;
     }
     &--light {
-      color: var(--white-color);
+      color: $white-color;
     }
   }

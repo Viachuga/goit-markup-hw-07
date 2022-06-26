@@ -1,5 +1,5 @@
 .current {
-    color: var(--akcent-color);
+    color: $akcent-color;
     position: relative;
   }
   
@@ -9,6 +9,6 @@
     width: 100%;
     height: 4px;
     bottom: 0;
-    background: var(--akcent-color);
+    background: $akcent-color;
     border-radius: 2px;
   }
